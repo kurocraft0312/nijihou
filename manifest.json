@@ -25,7 +25,7 @@
   // Optional
   // "action": ...,
   "author": "kurocraft0312",
-  "automation": ...,
+  // "automation": ...,
   "background": {
     // Recommended
     "persistent": false,
@@ -42,7 +42,10 @@
   "chrome_url_overrides": {...},
   "commands": {...},
   "content_capabilities": ...,
-  "content_scripts": [{...}],
+  "content_scripts": [
+    {
+        "matches": ["https://"]
+  }],
   "content_security_policy": "policyString",
   "converted_from_user_script": ...,
   "current_locale": ...,
