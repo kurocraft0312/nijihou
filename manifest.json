@@ -83,13 +83,13 @@
       "notifications",//通知
       "alarms"//アラーム（定期実行用）
   ],
-  "platforms": ...,
-  "replacement_web_app": ...,
-  "requirements": {...},
-  "sandbox": [...],
-  "short_name": "Short Name",
-  "signature": ...,
-  "spellcheck": ...,
+  // "platforms": ...,
+  // "replacement_web_app": ...,
+  // "requirements": {...},
+  // "sandbox": [...],//セキュリティ対策
+  // "short_name": "Short Name",
+  // "signature": ...,
+  // "spellcheck": ...,
   "storage": {
     "managed_schema": "schema.json"
   },
