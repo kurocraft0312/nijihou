@@ -2,7 +2,7 @@
   // Required
   "manifest_version": 2,
   "name": "Nijihou",//アプリ名
-  "version": "0",//バージョン情報
+  "version": "0.0.0.0",//バージョン情報
 
   // Recommended
   "default_locale": "ja_JP",//言語
