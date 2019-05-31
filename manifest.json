@@ -42,10 +42,10 @@
   // "chrome_url_overrides": {...},
   // "commands": {...},
   // "content_capabilities": ...,
-  "content_scripts": [
-    {
-        "matches": ["https://"]
-  }],
+  // "content_scripts": [
+  //   {
+  //       "matches": ["https://"]
+  // }],
   // "content_security_policy": "policyString",
   // "converted_from_user_script": ...,
   // "current_locale": ...,
@@ -61,25 +61,28 @@
   //   "multiple_mounts": true,
   //   "source": "network"
   // },
-  "homepage_url": "http://path/to/homepage",
-  "import": [{"id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}],
+  // "homepage_url": "http://path/to/homepage",
+  // "import": [{"id": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}],
   "incognito": "split",//シークレットウィンドウでも動作するようにする
-  "input_components": ...,
+  // "input_components": ...,
   "key": "publicKey",
   "minimum_chrome_version": "versionString",
-  "nacl_modules": [...],
-  "oauth2": ...,
+  // "nacl_modules": [...],
+  // "oauth2": ...,
   "offline_enabled": true,
   "omnibox": {
     "keyword": "aString"
   },
-  "optional_permissions": ["tabs"],
-  "options_page": "options.html",
-  "options_ui": {
-    "chrome_style": true,
-    "page": "options.html"
-  },
-  "permissions": ["tabs"],
+  // "optional_permissions": ["tabs"],
+  // "options_page": "options.html",
+  // "options_ui": {
+  //   "chrome_style": true,
+  //   "page": "options.html"
+  // },
+  "permissions": [//内部仕様
+      "notifications",//通知
+      "alarms"//アラーム（定期実行用）
+  ],
   "platforms": ...,
   "replacement_web_app": ...,
   "requirements": {...},
