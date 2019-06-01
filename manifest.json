@@ -93,9 +93,9 @@
   "storage": {
     "managed_schema": "schema.json"
   },
-  "system_indicator": ...,
-  "tts_engine": {...},
-  "update_url": "http://path/to/updateInfo.xml",
+  // "system_indicator": ...,
+  // "tts_engine": {...},
+  // "update_url": "http://path/to/updateInfo.xml",
   "version_name": "aString",
-  "web_accessible_resources": [...]
+  // "web_accessible_resources": [...]
 }
